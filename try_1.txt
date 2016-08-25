@@ -10,3 +10,5 @@ git log --pretty=oneline
 git reset --hard HEAD^  #huidao zhiqian yige banben
 git reset --hard 32352  #huifu weilai de banben
 git reflog   # kan lishi mingling
+git checkout -- file.txt #cancel all revises
+git reset HEAD file.txt  #cancel all revises in storage and return to workplace
