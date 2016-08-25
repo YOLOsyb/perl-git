@@ -1,3 +1,0 @@
-rm text.txt
-git rm text.txt
-git checkout -- text.txt
