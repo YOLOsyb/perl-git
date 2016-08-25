@@ -20,4 +20,14 @@ git push -u origin master  #first time to push things
 git push origin master     
 git clone git@server-name:path/repo-name.git  #clone something from the github 
 
+git checkout -b dev  #create another branch called dev and convert to it
+==
+git branch dev
+git checkout dev
+
+git branch 
+git merge dev
+git branch -d dev   #delete the branch called dev
+
+
 
