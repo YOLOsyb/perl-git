@@ -18,6 +18,6 @@ ssh-keygen -t rsa -C "youremail@example.com" #  produce the secret of ssh
 git remote add origin git@server-name:path/repo-name.git;  	  #connected to the git	hub
 git push -u origin master  #first time to push things
 git push origin master     
-
+git clone git@server-name:path/repo-name.git  #clone something from the github 
 
 
