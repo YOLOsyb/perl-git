@@ -14,8 +14,10 @@ git checkout -- file.txt #cancel all revises
 git reset HEAD file.txt  #cancel all revises in storage and return to workplace
 git rm file.txt   #delete some files
 ssh-keygen -t rsa -C "youremail@example.com" #  produce the secret of ssh 
-# id_rsa is private and id_rsa.pub is public 
-
+	# id_rsa is private and id_rsa.pub is public 
+git remote add origin git@server-name:path/repo-name.git;  	  #connected to the git	hub
+git push -u origin master  #first time to push things
+git push origin master     
 
 
 
