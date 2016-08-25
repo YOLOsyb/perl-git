@@ -4,4 +4,5 @@ git config --global user.email "email@example.com"
 git add file.txt
 git commit -m "example reviews"
 git status
+git log 
 
