@@ -5,4 +5,6 @@ git add file.txt
 git commit -m "example reviews"
 git status
 git log 
+git diff file.txt
+git log --pretty=oneline
 
