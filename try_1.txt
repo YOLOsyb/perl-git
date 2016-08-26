@@ -28,7 +28,6 @@ git checkout dev
 git branch 
 git merge dev
 git branch -d dev   #delete the branch called dev
-<<<<<<< HEAD
 git log --graph --pretty=oneline --abbrev-commit         #watch the situation of merging branch
 git stash
 git stash
@@ -36,13 +35,5 @@ git stash list
 	1.git stash apply (stash@{0})    2. git stash drop
 	1.git stash pop
 git branch -D dev   #delete the branch called dev forcefully
-=======
-git log --graph --pretty=oneline --abbrev-commit   #watch the situation of merging branch
-git merge --no-ff -m"merge with no-ff" dev  #forbid Fast forward
-git log --graph --pretty=oneline --abbrev-commit  #watch the log with graph
 
 
-
-
-
->>>>>>> dev1
