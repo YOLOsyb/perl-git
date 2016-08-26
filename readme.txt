@@ -4,3 +4,4 @@ Fighting.
 Believe yourself.
 Be patient.
 Git is very powerful.
+experience  the Bug branch.

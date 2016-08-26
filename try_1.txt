@@ -29,5 +29,9 @@ git branch
 git merge dev
 git branch -d dev   #delete the branch called dev
 git log --graph --pretty=oneline --abbrev-commit         #watch the situation of merging branch
-
+git stash
+git stash
+git stash list
+	1.git stash apply    2. git stash drop
+	1.git stash pop
 
