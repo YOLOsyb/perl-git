@@ -32,6 +32,6 @@ git log --graph --pretty=oneline --abbrev-commit         #watch the situation of
 git stash
 git stash
 git stash list
-	1.git stash apply    2. git stash drop
+	1.git stash apply (stash@{0})    2. git stash drop
 	1.git stash pop
 
