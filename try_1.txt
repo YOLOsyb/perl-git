@@ -34,4 +34,4 @@ git stash
 git stash list
 	1.git stash apply (stash@{0})    2. git stash drop
 	1.git stash pop
-
+git branch -D dev   #delete the branch called dev forcefully
