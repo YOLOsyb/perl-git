@@ -28,6 +28,6 @@ git checkout dev
 git branch 
 git merge dev
 git branch -d dev   #delete the branch called dev
-git log --graph --pretty=oneline --abbrev-commit   #watch the situation of merging branch
+git log --graph --pretty=oneline --abbrev-commit         #watch the situation of merging branch
 
 
