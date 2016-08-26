@@ -48,4 +48,6 @@ git tag <name> (commit id)
 git tag -a <tagname> -m "blablablabla..."  #zhiding biaoqian xinxi
 git tag -s <tagname> -m "blablablabla..."  #yong PGP jianming biaoqian
 git tag
-
+git tag -d v0.1
+git push origin v1.0   git push origin --tags
+git push origin :refs/tags/v1.0
