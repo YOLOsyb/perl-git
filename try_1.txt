@@ -43,3 +43,9 @@ git push origin branch
 git checkout -b dev origin/dev
 git pull  #if tell "no tracking information" then do the following operation
 	git branch --set-upstream branch-name origin/branch-name
+
+git tag <name> (commit id)
+git tag -a <tagname> -m "blablablabla..."  #zhiding biaoqian xinxi
+git tag -s <tagname> -m "blablablabla..."  #yong PGP jianming biaoqian
+git tag
+
